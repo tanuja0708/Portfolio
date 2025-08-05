@@ -6,7 +6,7 @@ A sleek, black-and-white, animated, and responsive personal portfolio website â€
 
 ## ðŸ”— Live Preview
 
-[View Live Site](https://yourusername.github.io/portfolio)
+[View Live Site](https://tanuja0708.github.io/Portfolio/)
 
 ---
 
