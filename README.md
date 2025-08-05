@@ -21,17 +21,6 @@ A sleek, black-and-white, animated, and responsive personal portfolio website �
 portfolio/
 ├── index.html
 ├── style.css
-├── images/
-│   ├── profile.png
-│   ├── project1.png
-│   ├── project2.png
-│   ├── project3.png
-│   └── ...
-└── screenshots/
-    ├── home.png
-    ├── about.png
-    ├── projects.png
-    └── contact.png
 ```
 
 ---
