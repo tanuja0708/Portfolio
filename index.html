@@ -17,6 +17,8 @@
             <a href="#about">About</a>
             <a href="#skills">Skills</a>
             <a href="#projects">Projects</a>
+            <a href="#achievements">Achievements</a>
+            <a href="#certifications">Certifications</a>
             <a href="#contact">Contact</a>
         </nav>
     </header>
@@ -24,66 +26,250 @@
     <section class="hero">
         <div class="hero-content">
             <h1>Hello, I'm <span>Tanuja Pandey</span></h1>
-            <p>A creative web developer passionate about design & interaction</p>
+            <p>BTech undergraduate passionate about Machine Learning, <br/>
+            Full Stack Development, and solving real-world problems through technology.</p>
             <a href="#projects" class="btn">View My Work</a>
         </div>
     </section>
 
     <section id="about" class="section fade">
-        <h2>About Me</h2>
-        <p>
-            I specialize in building beautiful, responsive websites using the latest web technologies.
-            I combine clean code with eye-catching designs to deliver outstanding user experiences.
-        </p>
-        <p>
-            I enjoy solving challenges and crafting meaningful digital products with a focus on performance,
-            accessibility, and interactivity.
-        </p>
-    </section>
+    <h2>About Me</h2>
+
+    <div class="about-grid">
+
+        <div class="about-left">
+            <p>
+                I am a BTech undergraduate student passionate about Machine Learning,
+                Web Development, and problem solving. I enjoy building projects that
+                combine creativity with technology while continuously learning new skills.
+            </p>
+
+            <div class="info-chips">
+                <span>📍 India</span>
+                <span>🎓 Batch 2028</span>
+                <span>💻 EE Student</span>
+            </div>
+
+            <div class="education-card">
+                <h3>B.Tech Electrical Engineering</h3>
+                <p>Institute of Engineering and Technology, Lucknow</p>
+                <small>2024 - 2028</small>
+            </div>
+        </div>
+
+        <div class="about-right">
+
+            <div class="stats-grid">
+                <div class="stat-box">
+                    <h3>300+</h3>
+                    <p>DSA Problems</p>
+                </div>
+
+                <div class="stat-box">
+                    <h3>3+</h3>
+                    <p>Projects</p>
+                </div>
+
+                <div class="stat-box">
+                    <h3>4</h3>
+                    <p>Certificates</p>
+                </div>
+
+                <div class="stat-box">
+                    <h3>Top 8%</h3>
+                    <p>ATF Rank</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
 
     <section id="skills" class="section fade">
-        <h2>Skills</h2>
-        <div class="skills-grid">
-            <div class="skill-card">HTML5</div>
-            <div class="skill-card">CSS3</div>
-            <div class="skill-card">Canva</div>
-            <div class="skill-card">Responsive Design</div>
-            <div class="skill-card">Git & GitHub</div>
-            <div class="skill-card">UI Design</div>
-            <div class="skill-card">LightRoom</div>
+    <h2>Skills</h2>
+
+    <div class="skills-layout">
+
+        <div class="skill-category">
+            <h3>Languages</h3>
+            <div class="skill-tags">
+                <span>Python</span>
+                <span>C++</span>
+                <span>JavaScript</span>
+                <span>SQL</span>
+            </div>
         </div>
-    </section>
+
+        <div class="skill-category">
+            <h3>Frameworks</h3>
+            <div class="skill-tags">
+                <span>Scikit-Learn</span>
+                <span>React</span>
+                <span>Flask</span>
+                <span>Node.js</span>
+            </div>
+        </div>
+
+        <div class="skill-category">
+            <h3>Libraries</h3>
+            <div class="skill-tags">
+                <span>Streamlit</span>
+                <span>Matplotlib</span>
+                <span>Pandas</span>
+                <span>NumPy</span>
+            </div>
+        </div>
+
+        <div class="skill-category">
+            <h3>Tools</h3>
+            <div class="skill-tags">
+                <span>Git</span>
+                <span>GitHub</span>
+                <span>VS Code</span>
+                <span>Amazon Bedrock</span>
+            </div>
+        </div>
+
+        <div class="skill-category">
+            <h3>Hands on</h3>
+            <div class="skill-tags">
+                <span>Machine Learning</span>
+                <span>Generative AI</span>
+                <span>XGBoost</span>
+                <span>Data Analysis</span>
+                <span>Data Interpretation and Validation</span>
+            </div>
+        </div>
+
+    </div>
+</section>
 
     <section id="projects" class="section fade">
-        <h2>Projects</h2>
-        <p>Hover to see my projects.</p>
-        <div class="projects-grid">
-            <a href="https://github.com/tanuja0708/Coffee-Corner" target="_blank" class="project-link">
-                <div class="project-card">
-                    <div class="overlay">
-                        <h3>Coffee Corner</h3>
-                        <p>Responsive, elegant layout</p>
-                    </div>
-                </div>
-            </a>
-            <a href="https://github.com/tanuja0708/UI-Kit" target="_blank" class="project-link">
-                <div class="project-card">
-                    <div class="overlay">
-                        <h3>UI Kit</h3>
-                        <p>Reusable UI Components</p>
-                    </div>
-                </div>
-            </a>
-            <a href="https://github.com/tanuja0708/Portfolio" target="_blank" class="project-link">
-                <div class="project-card">
-                    <div class="overlay">
-                        <h3>Portfolio</h3>
-                        <p>Responsive, animated UI</p>
-                    </div>
-                </div>
+    <h2>Projects</h2>
+    <p class="project-subtitle">
+        A collection of projects built across Machine Learning,
+        Web Development, and AI.
+    </p>
+
+    <div class="projects-layout">
+
+        <div class="project-card">
+            <span class="project-category">Machine Learning</span>
+
+            <h3>Heart Disease Predictor</h3>
+
+            <p>
+                Developed an end-to-end machine learning pipeline and deployed it as an interactive Streamlit application, 
+                benchmarking multiple classification models and achieving 0.93 ROC-AUC with 87% accuracy for real-time 
+                predictive insights.
+            </p>
+
+            <div class="project-tags">
+                <span>Python</span>
+                <span>Pandas</span>
+                <span>Scikit-Learn</span>
+                <span>Streamlit</span>
+            </div>
+
+            <a href="https://github.com/tanuja0708/Heart-disease-predictor" target="_blank" class="project-btn">
+                View Project →
             </a>
         </div>
-    </section>
+
+        <div class="project-card">
+            <span class="project-category">Generative AI</span>
+
+            <h3>AI Powered Daily Wellness & Productivity Planner</h3>
+
+            <p>
+                Built a generative AI wellness assistant on Amazon Bedrock, generating personalized schedules, 
+                recommendations, and journaling prompts.
+            </p>
+
+            <div class="project-tags">
+                <span>Amazon Bedrock</span>
+                <span>Python</span>
+                <span>LLMs</span>
+            </div>
+
+            <a href="https://partyrock.aws/u/rockCode/Oc3uPy8Vc/Daily-Wellness-and-Productivity-Planner" target="_blank" class="project-btn">
+                View Project →
+            </a>
+        </div>
+
+        <div class="project-card">
+            <span class="project-category">Web Development</span>
+
+            <h3>Swasthe</h3>
+
+            <p>
+                Built a React-based therapy scheduling platform with patient and doctor dashboards, 
+                enabling appointment booking, schedule tracking, and healthcare workflow management.
+            </p>
+
+            <div class="project-tags">
+                <span>React</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+            </div>
+
+            <a href="https://swasthe.vercel.app/" target="_blank" class="project-btn">
+                View Project →
+            </a>
+        </div>
+
+    </div>
+</section>
+
+<section id="achievements" class="section fade">
+    <h2>Achievements</h2>
+
+    <div class="achievements-grid">
+
+        <div class="achievement-card">
+            <h3>AlgoUniversity Tech Fellowship (ATF 2025) — Top 8%</h3>
+            <p>
+                Achieved a top 8% national ranking among 250,000+ participants in Stage 1; advanced to Stage 2 
+                to further demonstrate innovation and technical problem-solving abilities.
+            </p>
+        </div>
+
+        <div class="achievement-card">
+            <h3>STEM for HER Scholar</h3>
+            <p>
+                Selected among 200 girls nationwide for the prestigious STEM for Her Scholarship & Mentorship initiative, 
+                receiving structured mentorship and support for STEM career development.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section id="certifications" class="section fade">
+    <h2>Certifications</h2>
+
+    <div class="certifications-grid">
+
+        <div class="cert-card">
+            <span class="cert-category">Cloud</span>
+            <h3>AWS AI Practitioner Challenge</h3>
+            <p>Udacity</p>
+        </div>
+
+        <div class="cert-card">
+            <span class="cert-category">Generative AI</span>
+            <h3>Prompt Engineering for Generative AI</h3>
+            <p>LinkedIn</p>
+        </div>
+
+        <div class="cert-card">
+            <span class="cert-category">Development</span>
+            <h3>Web Development Fundamentals</h3>
+            <p>IBM</p>
+        </div>
+
+    </div>
+</section>
 
     <section id="contact" class="section fade">
         <h2>Get in Touch</h2>
